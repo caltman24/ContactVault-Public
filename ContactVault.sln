@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContactVault.Api", "ContactVault.Api\ContactVault.Api.csproj", "{C7DACAF0-C1D5-45AE-9494-1B06D494D677}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContactVault.Contracts", "ContactVault.Contracts\ContactVault.Contracts.csproj", "{688637EB-4BEF-4C93-91DF-437EE70C3771}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContactVault.DataAccess", "ContactVault.DataAccess\ContactVault.DataAccess.csproj", "{23C0AAE1-B29E-43EC-919D-310E854C1E19}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContactVault.DataAccess.Tests", "ContactVault.DataAccess.Tests\ContactVault.DataAccess.Tests.csproj", "{86C410AC-8B75-49C7-AF26-788FDD00F3CF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C7DACAF0-C1D5-45AE-9494-1B06D494D677}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7DACAF0-C1D5-45AE-9494-1B06D494D677}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7DACAF0-C1D5-45AE-9494-1B06D494D677}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7DACAF0-C1D5-45AE-9494-1B06D494D677}.Release|Any CPU.Build.0 = Release|Any CPU
+		{688637EB-4BEF-4C93-91DF-437EE70C3771}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{688637EB-4BEF-4C93-91DF-437EE70C3771}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{688637EB-4BEF-4C93-91DF-437EE70C3771}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{688637EB-4BEF-4C93-91DF-437EE70C3771}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23C0AAE1-B29E-43EC-919D-310E854C1E19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23C0AAE1-B29E-43EC-919D-310E854C1E19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23C0AAE1-B29E-43EC-919D-310E854C1E19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23C0AAE1-B29E-43EC-919D-310E854C1E19}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86C410AC-8B75-49C7-AF26-788FDD00F3CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86C410AC-8B75-49C7-AF26-788FDD00F3CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86C410AC-8B75-49C7-AF26-788FDD00F3CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86C410AC-8B75-49C7-AF26-788FDD00F3CF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

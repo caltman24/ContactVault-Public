@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  .trash_icon:hover .trash_icon__lid,
+  .trash_icon:hover .trash_icon__handle {
+    transform: rotate(-10deg);
+  }
+
+  html::-webkit-scrollbar {
+    width: 12px;
+  }
+
+  html::-webkit-scrollbar-track {
+    background: #e1e0e0;
+  }
+
+  html::-webkit-scrollbar-thumb {
+    background: #3b9b96;
+    border-radius: 15px;
+  }
+
+  html::-webkit-scrollbar-thumb:hover {
+    background: #338883;
+  }
+
+  html.dark::-webkit-scrollbar-track {
+    background: #212121;
+  }
+
+  .image_overlay:hover .image {
+    opacity: 0.2;
+  }
+
+  .image_overlay:hover .overlay {
+    opacity: 1;
+  }
+}
